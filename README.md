@@ -14,7 +14,7 @@
 | fs_pca           | - Comprehensive PCA analysis and visualization<br>- Modularity for data analysis pipelines | Exploratory data analysis and dimensionality reduction using PCA. |
 | fs_randomforest  | - Random forest models with categorical feature handling<br>- Hyperparameter tuning<br>- Data balancing | Building and evaluating random forest models for classification and regression tasks. |
 | fs_recursivefeature | - Recursive feature importance estimation<br>- Utilizes stratified k-fold CV | Identifying important features, integration into preprocessing pipelines for modeling. |
-| fs_stepwise      | - Stepwise regression with forward and backward selection<br>- Scale data and manage missing values | Automated feature selection using stepwise regression, suitable for preprocessing. |
+| fs_stepwise      | - Stepwise regression with forward and backward selection<br>- Scale data and manage missing values | Automated feature selection using stepwise regression. |
 | fs_svd           | - SVD computation with scaling and missing value handling<br>- Output format customization | Data preprocessing, dimensionality reduction, and feature extraction through SVD. |
 | fs_svm           | - Feature selection using SVM with model creation and evaluation | Automated model selection and evaluation using SVM with cross-validation. |
 | fs_variance      | - Variance thresholding for numeric datasets<br>- Customizable threshold and return type | Preprocessing by removing low-variance features, improving efficiency and model performance. |
