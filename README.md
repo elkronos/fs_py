@@ -1,6 +1,8 @@
 # fs_py
  Feature selection functions for python. This repo is still under development, but suggestions are welcome! These functions are currently undergoing a full UAT. Please use at your own discretion.
 
+# Feature summary and useage
+
 | Script Name      | Features                                                    | Usage                                  |
 |------------------|-------------------------------------------------------------|----------------------------------------|
 | fs_bayes         | - Bayesian linear regression with feature selection<br>- Incorporates date information<br>- Customizable iteration count | Regression with Bayesian inference, feature selection based on criteria like WAIC. |
@@ -19,8 +21,9 @@
 | fs_svm           | - Feature selection using SVM with model creation and evaluation | Automated model selection and evaluation using SVM with cross-validation. |
 | fs_variance      | - Variance thresholding for numeric datasets<br>- Customizable threshold and return type | Preprocessing by removing low-variance features, improving efficiency and model performance. |
 
+# Script summaries
 
-# fs_bayes Script Summary
+## fs_bayes Script Summary
 
 - **Script Name**: fs_bayes
 - **Modules Imported**:
@@ -48,7 +51,7 @@
   - Can be utilized to handle regression problems where Bayesian inference is necessary to estimate the parameters and uncertainties.
 
 
-# fs_boruta Script Summary
+## fs_boruta Script Summary
 
 - **Script Name**: fs_boruta
 - **Modules Imported**:
@@ -83,7 +86,7 @@
   - Helpful in handling missing values through various strategies such as dropping, mean, median, or mode imputation.
 
 
-# fs_chi Script Summary
+## fs_chi Script Summary
 
 - **Script Name**: fs_chi
 - **Modules Imported**:
@@ -130,7 +133,7 @@
   - It can help to identify and retain only the significant features for model training, potentially improving model performance and interpretability.
 
 
-# fs_correlation Script Summary
+## fs_correlation Script Summary
 
 - **Script Name**: fs_correlation
 - **Modules Imported**:
@@ -177,7 +180,7 @@
   - This script can be employed for feature selection and multicollinearity checking in datasets where features might be highly correlated. It's useful in the preprocessing step before training regression models or other linear algorithms sensitive to multicollinearity.
 
 
-# fs_elastic Script Summary
+## fs_elastic Script Summary
 
 - **Script Name**: fs_elastic
 - **Modules Imported**:
@@ -233,7 +236,7 @@
   - This script is utilized for feature selection in machine learning pipelines, especially when working with linear models. It helps in preprocessing data by removing outliers, scaling features, and selecting important features through regularization.
 
 
-# fs_info Script Summary
+## fs_info Script Summary
 
 - **Script Name**: fs_info
 - **Modules Imported**:
@@ -270,7 +273,7 @@
   - Can be extended for batch processing of multiple dataframes, facilitating parallel feature selection across different datasets.
 
 
-# fs_lasso Script Summary
+## fs_lasso Script Summary
 
 - **Script Name**: fs_lasso
 - **Modules Imported**:
@@ -304,7 +307,7 @@
   - Can be used for detailed analysis of model performance and feature importance in research or model development projects.
   
 
-# fs_mars Script Summary
+## fs_mars Script Summary
 
 - **Script Name**: fs_mars
 - **Modules Imported**:
@@ -336,7 +339,7 @@
   - Apt for usage in both research and development projects aiming for a detailed analysis of model performance, feature importances, and potential overfitting issues.
 
 
-# fs_pca Script Summary
+## fs_pca Script Summary
 
 - **Script Name**: fs_pca
 - **Modules Imported**:
@@ -386,7 +389,7 @@
   - Can assist in understanding the underlying patterns and structure of the data through PCA visualizations.
 
 
-# fs_randomforest Script Summary
+## fs_randomforest Script Summary
 
 - **Script Name**: fs_randomforest
 - **Modules Imported**:
@@ -457,7 +460,7 @@
   - Useful for researchers and practitioners aiming to build robust random forest models with various data preprocessing and evaluation options.
 
 
-# fs_recrusivefeature Script Summary
+## fs_recrusivefeature Script Summary
 
 - **Script Name**: fs_recrusivefeature
 - **Modules Imported**:
@@ -492,7 +495,7 @@
   - Can be used for detailed analysis of feature importance in research or model development projects, offering insights into which features contribute most to predictive performance.
 
 
-# fs_stepwise Script Summary
+## fs_stepwise Script Summary
 
 - **Script Name**: fs_stepwise
 - **Modules Imported**:
@@ -542,7 +545,7 @@
   - Allows saving and loading model states for reproducibility and sharing.
 
 
-# fs_svd Script Summary
+## fs_svd Script Summary
 
 - **Script Name**: fs_svd
 - **Modules Imported**:
@@ -608,7 +611,7 @@
   - Suitable for data preprocessing, dimensionality reduction, and feature extraction.
 
 
-# fs_svm Script Summary
+## fs_svm Script Summary
 
 - **Script Name**: fs_svm
 - **Modules Imported**:
@@ -659,7 +662,7 @@
   - Suitable for automated model selection and evaluation.
 
 
-# fs_variance Script Summary
+## fs_variance Script Summary
 
 - **Script Name**: fs_variance
 - **Modules Imported**:
