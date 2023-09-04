@@ -1,6 +1,24 @@
 # fs_py
  Feature selection functions for python. This repo is still under development, but suggestions are welcome! These functions are currently undergoing a full UAT. Please use at your own discretion.
 
+| Script Name      | Features                                                    | Usage                                  |
+|------------------|-------------------------------------------------------------|----------------------------------------|
+| fs_bayes         | - Bayesian linear regression with feature selection<br>- Incorporates date information<br>- Customizable iteration count | Regression with Bayesian inference, feature selection based on criteria like WAIC. |
+| fs_boruta        | - Boruta feature selection<br>- Reproducibility via seed<br>- Various missing value strategies | Automated feature selection, handling missing values, useful for preprocessing data. |
+| fs_chi           | - Chi-square test for categorical features<br>- Statistical corrections<br>- Detailed results | Selecting statistically significant categorical features before model training. |
+| fs_correlation   | - Compute various correlations<br>- Visualize correlation matrix<br>- Identify multicollinearity | Checking and eliminating highly correlated features, suitable for linear modeling. |
+| fs_elastic       | - Feature selection using ElasticNet<br>- Visualization tools<br>- Efficient hyperparameter tuning | Preprocessing with feature selection, handling outliers, and regularization in linear models. |
+| fs_info          | - Compute information gain<br>- Dynamically determine histogram bins<br>- Batch processing | Feature selection based on information gain, suitable for preprocessing and batch analysis. |
+| fs_lasso         | - Lasso regression with input validation<br>- Customizable scaler and alpha values<br>- Robust warnings | Feature selection through Lasso regression, preprocessing, and model performance analysis. |
+| fs_mars          | - MARS model creation and evaluation<br>- Hyperparameter tuning options<br>- Support for classification | Create and evaluate MARS models, hyperparameter tuning, analysis of model performance. |
+| fs_pca           | - Comprehensive PCA analysis and visualization<br>- Modularity for data analysis pipelines | Exploratory data analysis and dimensionality reduction using PCA. |
+| fs_randomforest  | - Random forest models with categorical feature handling<br>- Hyperparameter tuning<br>- Data balancing | Building and evaluating random forest models for classification and regression tasks. |
+| fs_recursivefeature | - Recursive feature importance estimation<br>- Utilizes stratified k-fold CV | Identifying important features, integration into preprocessing pipelines for modeling. |
+| fs_stepwise      | - Stepwise regression with forward and backward selection<br>- Scale data and manage missing values | Automated feature selection using stepwise regression, suitable for preprocessing. |
+| fs_svd           | - SVD computation with scaling and missing value handling<br>- Output format customization | Data preprocessing, dimensionality reduction, and feature extraction through SVD. |
+| fs_svm           | - Feature selection using SVM with model creation and evaluation | Automated model selection and evaluation using SVM with cross-validation. |
+| fs_variance      | - Variance thresholding for numeric datasets<br>- Customizable threshold and return type | Preprocessing by removing low-variance features, improving efficiency and model performance. |
+
 
 # fs_bayes Script Summary
 
