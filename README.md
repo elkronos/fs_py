@@ -690,7 +690,3 @@
   - Suitable for use in data cleaning and feature selection pipelines.
   - Warns if no features meet the variance threshold, indicating potential issues.
 
-
-# Contact
-- email: napoleonic_bores@proton.me
-- discord: elkronos
